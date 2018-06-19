@@ -34,6 +34,6 @@ Teste será adicionado em pasta referente à cada microsserviço.
 
 # Depenências iniciais (NuGet)
 Para projeto service.API:
-1. AutoMapper;
-2. Newtonsoft.Json; e
-3. Swashbuckle.AspNetCore.
+1. <a href="https://www.nuget.org/packages/automapper/">AutoMapper</a>;
+2. <a href="https://www.nuget.org/packages/newtonsoft.json/">Newtonsoft.Json</a>; e
+3. <a href="https://www.nuget.org/packages/swashbuckle.aspnetcore/">Swashbuckle.AspNetCore</a>.
