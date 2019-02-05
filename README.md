@@ -1,9 +1,9 @@
 # Microservices API conventions (pt-br)
 
-# Objetivo
+## Objetivo
 Estrutura de desenvolvimento em .NET para microsseviços
 
-# Estrutura
+## Estrutura
 Padrão do projeto para cada microsserviço:
 1.	**[NomeServico].API**: reponsável pela camada de *disponibilização* dos recursos do serviço;
 2.	**[NomeServico].Domain**: domíno da aplicação, responsábilidade de manter as *regras de negócio* de cada microsservico;
@@ -31,10 +31,10 @@ Para as pastas seguir o seguinte esquema:
     ...
   + NomeSolucaoProjeto.sln
 
-# Build and Test
+## Build and Test
 Teste será adicionado em pasta referente à cada microsserviço.
 
-# Depenências iniciais (NuGet)
+## Depenências iniciais (NuGet)
 Para projeto service.API:
 1. <a href="https://www.nuget.org/packages/automapper/">AutoMapper</a>;
 2. <a href="https://www.nuget.org/packages/newtonsoft.json/">Newtonsoft.Json</a>; e
